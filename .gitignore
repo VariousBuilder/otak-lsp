@@ -24,3 +24,10 @@ npm-debug.log*
 # Package
 *.vsix
 node_modules
+
+# --- env 方針 (2026-10-25): .env 系は鍵が入りうるので git に入れない。見本の .env.example だけ共有する ---
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
